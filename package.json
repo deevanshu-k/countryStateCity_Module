@@ -8,8 +8,7 @@
     "build": "npx tsc",
     "build:prod": "npm run test&& npm run build",
     "test": "npx jest",
-    "test:dev": "npx jest --watch",
-    "publish": "npm run build:prod&& npm publish --access public"
+    "test:dev": "npx jest --watch"
   },
   "author": "Deevanshu kushwah",
   "repository": "https://github.com/deevanshu-k/countryStateCity_Module",
