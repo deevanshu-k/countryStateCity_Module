@@ -1,4 +1,5 @@
 const { getAllCountries } = require('../src/index');
+const countriesArr = require('../src/data/countries.json');
 
 describe("Test for all countries related Fnx", () => {
     describe("getAllCountries()", () => {
@@ -6,7 +7,7 @@ describe("Test for all countries related Fnx", () => {
             let countries = getAllCountries();
             expect(typeof countries).toBe('object');
             expect(typeof countries[0]).toBe('object');
-
+            expect(countries).toEqual(countriesArr);
         })
     });
 });
