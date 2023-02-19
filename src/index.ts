@@ -1,4 +1,7 @@
-import { getAllCountries } from "./countries/countries";
+import { country } from "./interfaces/country.interface";
+const countries =  require('./data/countries.json');
 
-
-module.exports = {getAllCountries};
+export function getAllCountries() : country[]{
+    let data : country[] = countries;
+    return data;
+}

@@ -1,4 +1,4 @@
-const {getAllCountries} = require ('../src/index');
+const { getAllCountries } = require('../src/index');
 
 describe("Test for all countries related Fnx", () => {
     describe("getAllCountries()", () => {
@@ -7,6 +7,6 @@ describe("Test for all countries related Fnx", () => {
             expect(typeof countries).toBe('object');
             expect(typeof countries[0]).toBe('object');
 
-    })
-});
+        })
+    });
 });

@@ -1,5 +1,5 @@
 {
-  "name": "country_state_city",
+  "name": "xcountry-state-city",
   "version": "1.0.0",
   "description": "Package for getting country state and city",
   "main": "index.js",
