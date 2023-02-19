@@ -1,14 +1,15 @@
 {
   "name": "xcountry-state-city",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Package for getting country state and city",
   "main": "index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
     "build": "npx tsc",
-    "build:prod": "jest&& npm run build",
+    "build:prod": "npm run test&& npm run build",
     "test": "npx jest",
-    "test:dev": "npx jest --watch"
+    "test:dev": "npx jest --watch",
+    "publish": "npm run build:prod&& npm publish --access public"
   },
   "author": "Deevanshu kushwah",
   "repository": "https://github.com/deevanshu-k/countryStateCity_Module",
