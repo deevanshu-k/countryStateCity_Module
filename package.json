@@ -1,6 +1,6 @@
 {
   "name": "xcountry-state-city",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Package for getting country state and city",
   "main": "index.js",
   "types": "./lib/index.d.ts",
@@ -12,7 +12,7 @@
   },
   "author": "Deevanshu kushwah",
   "repository": "https://github.com/deevanshu-k/countryStateCity_Module",
-  "homepage": "https://github.com/deevanshu-k/countryStateCity_Module",
+  "homepage": "https://deevanshu-k.github.io/countryStateCity_Module/",
   "license": "MIT",
   "keywords": [
     "country",
