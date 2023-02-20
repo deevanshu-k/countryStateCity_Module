@@ -7,15 +7,15 @@ npm i xcountry-state-city
 
 ## Example
 ```
-let xcountry = require('xcountry-state-city');
+let {getAllCountries} = require('xcountry-state-city');
 
-xcountry.getAllCountries();
+getAllCountries();
 ```
 
 ## Countries
 #### getAllCountries( )
 ```
-xcountry.getAllCountries();
+getAllCountries();
 // it will return array of countries object
 ```
 
@@ -38,7 +38,7 @@ xcountry.getAllCountries();
 ### States
 #### getStatesByCountry( )
 ```
-xcountry.getStatesByCountry( countryCode:string );
+getStatesByCountry( countryCode:string );
 // it will return array of states
 ```
 
@@ -56,7 +56,7 @@ xcountry.getStatesByCountry( countryCode:string );
 ### Cities
 #### getCitiesByStateAndCountry( )
 ```
-xcountry.getCitiesByStateAndCountry( countryCode:string , stateCode:string );
+getCitiesByStateAndCountry( countryCode:string , stateCode:string );
 // it will return array of cities
 ```
 ##### Response :
