@@ -16,7 +16,7 @@ getAllCountries();
 
 ## Countries
 #### getAllCountries( )
-#### getAllCountries( )
+
 ```
 getAllCountries();
 getAllCountries();
@@ -60,7 +60,7 @@ getCountryDetailByCountryCode(CountryCode:String);
 
 ### States
 #### getStatesByCountry( )
-#### getStatesByCountry( )
+
 ```
 getStatesByCountry( countryCode:string );
 getStatesByCountry( countryCode:string );
