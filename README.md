@@ -8,13 +8,17 @@ npm i xcountry-state-city
 ## Example
 ```
 let {getAllCountries} = require('xcountry-state-city');
+let {getAllCountries} = require('xcountry-state-city');
 
+getAllCountries();
 getAllCountries();
 ```
 
 ## Countries
 #### getAllCountries( )
+#### getAllCountries( )
 ```
+getAllCountries();
 getAllCountries();
 // it will return array of countries object
 ```
@@ -56,7 +60,9 @@ getCountryDetailByCountryCode(CountryCode:String);
 
 ### States
 #### getStatesByCountry( )
+#### getStatesByCountry( )
 ```
+getStatesByCountry( countryCode:string );
 getStatesByCountry( countryCode:string );
 // it will return array of states
 ```

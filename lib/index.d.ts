@@ -1,4 +1,5 @@
 import { City } from "./interfaces/city.interface";
+import { City } from "./interfaces/city.interface";
 import { Country } from "./interfaces/country.interface";
 import { smallState } from "./interfaces/smallState.interface";
 import { State } from "./interfaces/state.interface";
